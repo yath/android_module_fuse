@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="de.yath.android.libs.fuse"
+      android:versionCode="1"
+      android:versionName="2.8.5-android1">
+    <application android:debuggable="true" />
+</manifest> 

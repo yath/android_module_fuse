@@ -8,6 +8,9 @@
 
 #include "fuse.h"
 #include "fuse_lowlevel.h"
+#ifdef __ANDROID__
+# include <pthread.h>
+#endif
 
 struct fuse_chan;
 struct fuse_ll;

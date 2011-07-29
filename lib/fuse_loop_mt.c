@@ -10,6 +10,10 @@
 #include "fuse_misc.h"
 #include "fuse_kernel.h"
 
+#ifdef __ANDROID__
+# include "android_compat_pthread.h"
+#endif
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
