@@ -14,4 +14,8 @@ LOCAL_EXPORT_CFLAGS := $(LOCAL_CFLAGS)
 
 LOCAL_LDLIBS := -Wl,--version-script=lib/fuse_versionscript
 
+LOCAL_STATIC_LIBRARIES = androidglue
+
 include $(BUILD_STATIC_LIBRARY)
+
+$(call import-module,androidglue)
